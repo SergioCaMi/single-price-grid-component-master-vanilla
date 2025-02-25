@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root{
+    --primary-cyan: hsl(179, 62%, 43%);
+    --primary-yellow: hsl(71, 73%, 54%);
+    --secondary-cyan:#4ABEBD;
+    --neutral-gray: hsl(204, 43%, 93%);
+    --neutral-blue: hsl(218, 22%, 67%);
+    --graytext:#BABFC5;
+}
+
+html{
+    
+    font-size: 16px;
+}
+
+body{
+    font-family: "Karla", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ /* vertical align */
+
+.main{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+h3{
+    font-weight: 700;
+}
+
+h4{
+    font-weight: 400;
+}
+
+p{
+    font-size: small;
+}
+
+/* header section*/
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+
+.title__header{
+    color: var(--primary-cyan);
+}
+
+.subtitle__header{
+    color: var(--primary-yellow);
+}
+
+.text__header{
+    color: var(--graytext);
+
+}
+
+/* pricing section*/
+
+.pricing{
+    background-color: var(--primary-cyan);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pricemonth__pricing{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+.price__pricing{
+    /* vertical-align: middle; */
+    color: white;
+    font-size: 2rem;
+    align-items: center;
+
+}
+
+.price_time{
+    color: var(--graytext);
+    align-items: center;
+}
+
+.signup__pricing{
+    background-color: var(--primary-yellow);
+    padding: 10px;
+}
+
+/* features section  */
+
+.features{
+    background-color: var(--primary-cyan);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
